@@ -1,0 +1,41 @@
+
+
+body{
+    background-color: cadetblue;
+    display: inline-block;
+    width: 100%;
+}
+
+#sketchpad{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+
+.sidebar{
+    display: inline-block;
+    width: 30%;
+
+}
+
+.colors{
+    height: 100px;
+    width: 100px;
+    margin: 50px;
+
+}
+
+.colors div {
+    height: 20px;
+    width: 20px;
+    background-color: white;
+    margin-bottom: 5px;
+} 
+
+
+
+canvas {
+    border: 2px;
+    border-color: black;
+    background-color: white;
+}
